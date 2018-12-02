@@ -19,7 +19,7 @@
 <!-- /.row -->
 @include('admin.layouts.partials.validation')
 <!-- /.row -->
-@endif
+
 <div class="row">
     <div class="col-lg-12">
         <form action="/admin/posts/{{$post->id}}" method="POST" role="form">
